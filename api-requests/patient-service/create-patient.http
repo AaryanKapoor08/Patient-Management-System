@@ -1,0 +1,11 @@
+### POST request to create new patient entity
+POST http://localhost:4000/patients
+Content-Type: application/json
+
+{
+  "name": "John Doe",
+  "email": "test@example.com",
+  "address": "123 maine street ",
+  "dateOfBirth": "1995-06-09"
+}
+###
