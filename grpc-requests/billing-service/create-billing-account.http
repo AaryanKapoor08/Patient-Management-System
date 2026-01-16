@@ -1,0 +1,10 @@
+#host on which grpc working/ name of service/ name of protobuf method
+GRPC localhost:9001/BillingService/CreateBillingAccount
+Content-Type: application/json
+
+{
+  "patientId" : "12333",
+  "name" : "John Doe",
+  "email" : "john.example.com"
+}
+
